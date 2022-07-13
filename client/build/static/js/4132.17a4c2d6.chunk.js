@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkclient=self.webpackChunkclient||[]).push([[4132],{4132:function(e,t,n){n.r(t);n(2791);var a=n(184);t.default=function(e){var t=e.toShow;return(0,a.jsx)(a.Fragment,{children:(0,a.jsx)("div",{style:{backgroundColor:"".concat(t?"#FBEC7A":"transparent")},className:"opacity-90 fixed w-screen right-0 left-0 top-0 navbar 2xl:h-140 md:h-110 h-85"})})}}}]);
+//# sourceMappingURL=4132.17a4c2d6.chunk.js.map

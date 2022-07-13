@@ -1,0 +1,217 @@
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #d8d8d8;
+    border-radius: 40px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  .menu {
+    z-index: 100000;
+  }
+  .forms {
+    z-index: 10000000000000;
+  }
+  .icon {
+    animation: rotate 8s infinite linear;
+  }
+  @keyframes rotate {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .root {
+    overflow-x: hidden !important;
+  }
+  .video-card {
+    background-color: #000;
+  }
+  .video-card:hover .cardText {
+    bottom: 18px;
+    transition: all 0.5s ease-in-out;
+  }
+  .video-card:hover img {
+    opacity: 0.5;
+  }
+  .cardText {
+    transition: all 0.5s ease-in-out;
+    bottom: -4em;
+  }
+  .tab-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .tab-container::-webkit-scrollbar {
+    display: none;
+  }
+  @keyframes scaling {
+    0% {
+      transform: scale(0.9);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.9);
+    }
+  }
+  .btn-move {
+    animation: scaling 2.5s infinite linear;
+  }
+  .navbar {
+    z-index: 99999;
+    transition: all 250ms;
+  }
+  .card-scroll::-webkit-scrollbar-thumb {
+    border: 5px solid #000;
+    border-radius: 40px;
+    transition: all 0.5s ease;
+  }
+  .card-scroll {
+    -webkit-overflow-scrolling: touch;
+  }
+  img {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+  .selectDisable {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #d8d8d8;
+    border-radius: 40px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  .menu {
+    z-index: 100000;
+  }
+  .forms {
+    z-index: 10000000000000;
+  }
+  .icon {
+    animation: rotate 8s infinite linear;
+  }
+  @keyframes rotate {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .root {
+    overflow-x: hidden !important;
+  }
+  .video-card {
+    background-color: #000;
+  }
+  .video-card:hover .cardText {
+    bottom: 18px;
+    transition: all 0.5s ease-in-out;
+  }
+  .video-card:hover img {
+    opacity: 0.5;
+  }
+  .cardText {
+    transition: all 0.5s ease-in-out;
+    bottom: -4em;
+  }
+  .tab-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .tab-container::-webkit-scrollbar {
+    display: none;
+  }
+  @keyframes scaling {
+    0% {
+      transform: scale(0.9);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.9);
+    }
+  }
+  .btn-move {
+    animation: scaling 2.5s infinite linear;
+  }
+  .navbar {
+    z-index: 99999;
+    transition: all 250ms;
+  }
+  .card-scroll::-webkit-scrollbar-thumb {
+    background-color: #000;
+    border-radius: 40px;
+    transition: all 0.5s ease;
+  }
+  img {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+  .flip-card {
+    perspective: 1000px;
+  }
+  .flip-card-inner {
+    transition: all 0.7s ease-in-out;
+    transform-style: preserve-3d;
+  }
+  .flip-card-inner[rotate="true"] {
+    transform: rotateY(180deg);
+  }
+  .flip-card-back,
+  .flip-card-front {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .flip-card-back {
+    transform: rotateY(180deg);
+  }
+  .loader {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(212, 210, 210, 0.6);
+    display: grid;
+    place-items: center;
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 100000000000000;
+  }
+  .loader-child {
+    width: 10vmax;
+    height: 10vmax;
+    border-bottom: 5px solid #00a99d;
+    border-radius: 50%;
+    animation: loadingRotate 0.8s linear infinite;
+  }
+  @keyframes loadingRotate {
+    to {
+      transform: rotateZ(-360deg);
+    }
+  }
+  

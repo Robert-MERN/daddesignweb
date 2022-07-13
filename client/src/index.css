@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    padding:0;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+    user-select: text;
+}
+@font-face {
+    font-family: "Crocante";
+    src: local("Crocante"), url("../crocante.ttf") format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: "Graphik";
+    src: local("Graphik"), url("../Graphik.otf") format("truetype");
+    font-display: swap;
+}
+
+.variation-one{
+    font-family: "Crocante", sans-serif;
+    scroll-behavior: smooth;
+}
+.variation-two{
+    font-family: "Graphik", sans-serif;
+    scroll-behavior: smooth;
+}
+.variation-three{
+    font-family: "Graphik", sans-serif;
+    scroll-behavior: smooth;
+
+}
+video::-webkit-media-controls-fullscreen-button {
+    display: none !important;
+}
+.load{
+    background-color: white;
+}
+
+.fallback{
+    opacity: 0;
+}
+
+.fallback img {
+    object-fit: contain;
+    border-radius: 25%;
+    background: yellow;
+    padding: 15px;
+    display: none;
+}
